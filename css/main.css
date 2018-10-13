@@ -6,6 +6,7 @@ html {
   margin: 1.5rem;
   line-height: 1.5;
   padding: 1em;
+  max-width: 25em;
 }
 
 *, *::before, *::after {
@@ -14,11 +15,10 @@ html {
 
 h1 {
   font-weight: bold;
-  display: inline-block;
 }
 
 a {
-  border-width: .3em;
+  border-width: .2em;
   border-style: solid;
   border-radius: .5em;
   color: #333;
@@ -26,6 +26,8 @@ a {
   text-decoration: none;
 }
 
-p {
-  display: inline-block;
+a:hover {
+  background-color: #666;
+  border-color: #666;
+  color: #fff;
 }
