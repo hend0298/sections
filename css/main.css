@@ -8,12 +8,16 @@ html {
   line-height: 1.5;
   padding: 1em;
   max-width: 25em;
-  vertical-align: middle;
-  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
 }
 
 h2 {
@@ -39,4 +43,9 @@ a:hover {
 
 p {
   text-align: left;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
