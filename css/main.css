@@ -2,12 +2,12 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   color: #333;
-  display: inline-block;
   font-family: Lato, sans-serif;
   margin: 1.5rem;
   line-height: 1.5;
   padding: 1em;
-  max-width: 25em;
+  text-align: left;
+  display: inline-block;
 }
 
 *, *::before, *::after {
@@ -15,14 +15,13 @@ html {
 }
 
 body {
-  margin: 1.5rem;
-  text-align: center;
+  display: inline-block;
   vertical-align: middle;
+  text-align: left;
 }
 
 h2 {
   font-weight: bold;
-  text-align: left;
 }
 
 .btn {
@@ -32,7 +31,6 @@ h2 {
   color: #333;
   padding: .4em .75em .5em;
   text-decoration: none;
-  text-align: left;
 }
 
 a:hover {
@@ -41,11 +39,15 @@ a:hover {
   color: #fff;
 }
 
-p {
-  text-align: left;
-}
-
 img {
   display: block;
   width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  text-align: center;
 }
