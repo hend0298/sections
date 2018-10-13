@@ -2,19 +2,23 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   color: #333;
-  font-family: Lato,sans-serif;
+  display: inline-block;
+  font-family: Lato, sans-serif;
   margin: 1.5rem;
   line-height: 1.5;
   padding: 1em;
   max-width: 25em;
+  vertical-align: middle;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+h2 {
   font-weight: bold;
+  text-align: left;
 }
 
 a {
@@ -24,10 +28,15 @@ a {
   color: #333;
   padding: .4em .75em .5em;
   text-decoration: none;
+  text-align: left;
 }
 
 a:hover {
   background-color: #666;
   border-color: #666;
   color: #fff;
+}
+
+p {
+  text-align: left;
 }
