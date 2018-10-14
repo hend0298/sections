@@ -22,6 +22,7 @@ body {
 
 h2 {
   font-weight: bold;
+  display: block;
 }
 
 .btn {
@@ -44,6 +45,7 @@ img {
   width: 100%;
   max-width: 25em;
   padding: .4em .75em .5em;
+  text-align: center;
 }
 
 div {
